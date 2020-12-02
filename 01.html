@@ -7,10 +7,67 @@
 <body>
 <script>
   function getA(){
-    consoe.log(111)
+    console.log(111)
   }
   getA();
   
   //2019.11.19 06:41 第一次吃修改
+  var arr = [
+    {
+      value:"zhinan",
+      label:"指南",
+      children:[
+        {
+          value:"one-one",
+          label:"111-111",
+          children:[
+            {
+              value:"one-one-one",
+              label:"111-111-111"
+            },
+            {
+              value:"two-two-two",
+              label:"222-222-222"
+            }
+          ]
+        },
+        {
+          value:"3",
+          label:"3",
+          children:[
+            {
+              value:"33",
+              label:"33"
+            },
+            {
+              value:"333",
+              label:"333"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      value:"daohang",
+      label:"导航",
+      children:[
+        {
+          value:"1",
+          label:"1",
+          children:[
+            {
+              value:"11",
+              label:"11"
+            },
+            {
+              value:"22",
+              label:"22"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  console.log(arr)
 </script>
 </html>
